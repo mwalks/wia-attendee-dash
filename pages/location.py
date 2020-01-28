@@ -12,7 +12,7 @@ import numpy as np
 
 # Path
 BASE_PATH = pathlib.Path(__file__).parent.resolve()
-DATA_PATH = BASE_PATH.joinpath("..\data").resolve()
+DATA_PATH = BASE_PATH.joinpath("../data").resolve()
 
 df = pd.read_csv(DATA_PATH.joinpath("shortcut_loc.csv"))
 

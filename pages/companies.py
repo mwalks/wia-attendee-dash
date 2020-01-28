@@ -10,7 +10,7 @@ from utils import Header, make_dash_table
 
 # Path
 BASE_PATH = pathlib.Path(__file__).parent.resolve()
-DATA_PATH = BASE_PATH.joinpath("..\data").resolve()
+DATA_PATH = BASE_PATH.joinpath("../data").resolve()
 
 
 def create_layout(app):

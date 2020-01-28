@@ -12,7 +12,7 @@ from PIL import Image
 
 # Path
 BASE_PATH = pathlib.Path(__file__).parent.resolve()
-DATA_PATH = BASE_PATH.joinpath("..\data").resolve()
+DATA_PATH = BASE_PATH.joinpath("../data").resolve()
 
 # the bar polar plot
 p3 = px.bar_polar(
@@ -26,7 +26,7 @@ p3 = px.bar_polar(
     start_angle=95,
     title='Industry of Attendees (%)'
 ).update(layout=dict(images=[dict(
-    source=Image.open(BASE_PATH.joinpath(r'''..\assets''').joinpath("WIA_logo.jpg")),
+    source=Image.open(BASE_PATH.joinpath(r'''../assets''').joinpath("WIA_logo.jpg")),
     xref="paper", yref="paper",
     x=0.470, y=0.450,
     sizex=0.1, sizey=0.1,

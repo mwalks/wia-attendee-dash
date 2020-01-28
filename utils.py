@@ -26,7 +26,7 @@ def get_header(app):
             html.Div(
                 [
                     html.Div(
-                        [html.H5("Women in Analytics 2020 Conference: Q3 Report")],
+                        [html.H5("Women in Analytics 2020 Conference: Q4 Report")],
                         className="seven columns main-title",
                     ),
                     html.Div(

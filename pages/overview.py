@@ -10,7 +10,7 @@ from utils import Header, make_dash_table, get_header, get_menu
 
 # Path
 BASE_PATH = pathlib.Path(__file__).parent.resolve()
-DATA_PATH = BASE_PATH.joinpath("..\data").resolve()
+DATA_PATH = BASE_PATH.joinpath("../data").resolve()
 
 
 def create_layout(app):
@@ -36,7 +36,7 @@ def create_layout(app):
                             [
                                 html.Div(
                                     [html.H5(
-                                        "Women in Analytics 2020 Conference: Q3 Report")],
+                                        "Women in Analytics 2020 Conference: Q4 Report")],
                                     className="seven columns main-title",
                                 ),
                                 html.Div(

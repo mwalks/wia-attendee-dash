@@ -12,7 +12,7 @@ import numpy as np
 
 # Path
 BASE_PATH = pathlib.Path(__file__).parent.resolve()
-DATA_PATH = BASE_PATH.joinpath("..\data").resolve()
+DATA_PATH = BASE_PATH.joinpath("../data").resolve()
 
 # Prepare graphs with pre-agg data
 
