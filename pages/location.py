@@ -110,8 +110,8 @@ px.scatter_geo(
                     html.P(
                         [
                             "More detailed code can be found at ",
-                            html.A("https://github.com/mwalks/wia-q3-dash",
-                                   href="https://github.com/mwalks/wia-q3-dash"),
+                            html.A("https://github.com/mwalks/wia-attendee-dash",
+                                   href="https://github.com/mwalks/wia-attendee-dash"),
                             html.Br(),
                             "THANK YOU FOR YOUR SUPPORT!"
                         ], style={"color": "grey", "text-size": "1.3rem", "text-align": "center"}
