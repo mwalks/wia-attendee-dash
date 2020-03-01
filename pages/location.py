@@ -43,6 +43,31 @@ p4 = px.scatter_geo(
     )
 )
 
+p5 = px.scatter_geo(
+    df,
+    lat='lat',
+    lon='lon',
+    size='percent',
+    size_max=40,
+    opacity=0.7,
+    hover_name='city',
+    scope='world',
+    title='Attendee Proportions by City (World map)',
+    color_discrete_map={'': 'orange'},
+    width=700,
+    height=500,
+).update(
+    layout=dict(
+        title=dict(
+            x=0.5
+        ),
+        geo=dict(
+            subunitcolor='gray',
+            subunitwidth=0.5,
+            countrycolor='gray'
+        )
+    )
+)
 
 def create_layout(app):
     # Page layouts
@@ -68,8 +93,21 @@ def create_layout(app):
                                 },
                                 style={
                                     "width": "100%", "display": "inline-block", "align": "center"}
-                            ),
+                            )
+                        ]),
+                        
+                        html.Div([
+                            dcc.Graph(
+                                id="graph5",
+                                figure=p5,
+                                config={
+                                    'displayModeBar': False
+                                },
+                                style={
+                                    "width": "100%", "display": "inline-block", "align": "center"}
+                            )
                         ])
+
                     ], className="row"
                     ),
                     html.Br(),
