@@ -74,7 +74,7 @@ def create_layout(app):
                     ),
                     html.Br(),
                     html.Div(html.I(
-                        r'''Attendees come from a diverse range of locations, with most coming from one of over ten cities in Ohio The Columbus community is particularly well-represented at 58%.'''
+                        r'''Attendees come from a diverse range of locations, with most coming from one of over ten cities in Ohio. The Columbus community is particularly well-represented with more than 30% of the attendees coming from this area.'''
                     ), className="row", style={"margin-left": "20%", "margin-right": "20%", "text-align": "justify"}
                     ),
                     html.Br(),

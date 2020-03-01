@@ -86,8 +86,7 @@ def create_layout(app):
                     html.Br(),
                     html.Div(html.I(
                         r'''Most of the registered attendees consider their technical expertise to be novice or intermediate, whereas
-21.5% consider they have advanced expertise. Few considder themselves to be "experts." Additionally, most of the attendees have between 2 and 9 year of
-experience in analytics. There is a well-balanced distribution of both early career and more experienced professionals.'''
+22.1% consider they have advanced expertise. Few considder themselves to be "experts." Additionally, most of the attendees have between 2 and 9 years of experience in analytics. There is a well-balanced distribution of both early career and more experienced professionals.'''
                     ), className="row", style={"margin-left": "10%", "margin-right": "10%", "text-align": "justify"}
                     ),
                     html.Br(),
