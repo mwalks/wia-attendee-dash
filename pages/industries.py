@@ -85,7 +85,7 @@ def create_layout(app):
                     ),
                     html.Br(),
                     html.Div(html.I(
-                        r'''The industry with most representation is healthcare / life sciences / pharmaceuticals at 27%, followed by insurance,and then other and manufacturing.'''
+                        r'''The industry with most representation is manufacturing at 19.8%, followed by insurance at 17.4%, and by healthcare/life sciences/pharmaceuticals at 16.9%.'''
                     ), className="row", style={"margin-left": "20%", "margin-right": "20%", "text-align": "justify"}
                     ),
                     html.Br(),

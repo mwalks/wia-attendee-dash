@@ -36,9 +36,7 @@ def create_layout(app):
                     ],className="row"
                     ),
                     html.Br(),
-                    html.Div(html.I('''The companies with the most
-representation are currently CoverMyMeds, Nationwide Insurance, The James Cancer Hospital of The Ohio State
-University, Honda, and Alliance Data. If you click on \"Industries\" you\'ll see the presence of these companies reflected in the industries represented.'''),className="row",style={"margin-left":"10%","margin-right":"10%","text-align":"justify"}
+                    html.Div(html.I('''The companies with the most representation are currently Honda (17.8% of the attendees), Nationwide (11.5% of the attendees), Grange Insurance (6.9% of the attendees), CoverMyMeds (6.3% of the attendees), and The Ohio State University (5.7% of the attendees). If you click on \"Industries\" you\'ll see the presence of these companies reflected in the industries represented.'''),className="row",style={"margin-left":"10%","margin-right":"10%","text-align":"justify"}
                     ),
                     html.Br(),
                     html.Details([
