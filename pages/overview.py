@@ -58,6 +58,10 @@ def create_layout(app):
                                    href='https://www.linkedin.com/in/matthew-j-walker-osu/',
                                    style={'padding-left': '10%'}
                                    ),
+                            html.A(" &  Ariadna Martínez",
+                                   href='https://www.linkedin.com/in/ariadnamartinezgonzalez/',
+                                   style={'padding-left': '0%'}
+                                   ),
                         ]),
                         html.Div(
                             [html.H3(
@@ -100,7 +104,7 @@ def create_layout(app):
                                                         html.Ul(
                                                             [
                                                                 html.Li(
-                                                                    "The 4rd Annual WIA Conference"),
+                                                                    "The 4th  Annual WIA Conference"),
                                                                 html.Li(
                                                                     "Double last year's attendees"),
                                                                 html.Li(
@@ -120,7 +124,7 @@ def create_layout(app):
                                                                 html.Li(
                                                                     "Attracted a diverse and talented pool of attendees"),
                                                                 html.Li(
-                                                                    "Over 10 Fortune 500 Companies represented"),
+                                                                    "Over 18 Fortune 500 Companies represented"),
                                                                 html.Li(
                                                                     "Provided learning opportunities for both advanced strategic and technical content"),
                                                             ]
@@ -140,3 +144,4 @@ def create_layout(app):
         ],
         className="page",
     )
+
