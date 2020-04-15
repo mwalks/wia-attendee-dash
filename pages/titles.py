@@ -42,7 +42,7 @@ def create_layout(app):
                         ),
                         html.A(
                             html.Img(id="wia-titles",
-                            src=app.get_asset_url("wia_title_wordcloud.PNG"),
+                            src=app.get_asset_url("wia_title_wordcloud.png"),
                             style={"margin":"auto","width":"90%","display":"block"}
                             )
                         )
@@ -135,5 +135,4 @@ wordcloud.to_file("wia_title_wordcloud.png")
         ],
         className="page",
     )
-
 

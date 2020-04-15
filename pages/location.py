@@ -25,7 +25,7 @@ p4 = px.scatter_geo(
     opacity=0.7,
     hover_name='city',
     scope='usa',
-    title='Attendee Proportions by City',
+    title='Attendee Proportions by City (USA map)',
     color_discrete_map={'': 'orange'},
     width=700,
     height=500,
@@ -42,6 +42,7 @@ p4 = px.scatter_geo(
         )
     )
 )
+
 
 p5 = px.scatter_geo(
     df,
@@ -68,6 +69,8 @@ p5 = px.scatter_geo(
         )
     )
 )
+
+
 
 def create_layout(app):
     # Page layouts
@@ -107,7 +110,6 @@ def create_layout(app):
                                     "width": "100%", "display": "inline-block", "align": "center"}
                             )
                         ])
-
                     ], className="row"
                     ),
                     html.Br(),
