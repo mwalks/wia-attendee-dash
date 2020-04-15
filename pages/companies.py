@@ -49,8 +49,12 @@ def create_layout(app):
                             "What companies are the most represented?",
                             className="subtitle",style={"margin-left":"10%","margin-bottom":"25px","font-size":"2rem"}
                         ),
-                        html.Img(id="companies_wc"),
-                        
+                       html.A(
+                            html.Img(id="wia-company",
+                            src=app.get_asset_url("wia_company_wordcloud.png"),
+                            style={"margin":"auto","width":"90%","display":"block"}
+                            )
+                       )
                     ],className="row"
                     ),
                     html.Br(),
@@ -118,5 +122,4 @@ print("Title word cloud created.")
         ],
         className="page",
     )
-
 

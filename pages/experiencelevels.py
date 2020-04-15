@@ -29,6 +29,7 @@ p = px.histogram(
     title="Reported Technical Expertise",
     height=520,
 )
+
 p2 = px.histogram(
     pd.read_csv(DATA_PATH.joinpath("shortcut_an_exp.csv")),
     x='Analytics Experience',

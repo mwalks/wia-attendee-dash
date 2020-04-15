@@ -35,7 +35,7 @@ p3 = px.bar_polar(
     title=dict(
     x=0.5
 ),
-    font_size=13,
+    font_size=9,
     polar=dict(
     sector=[89, 435],
     hole=0.15,
